@@ -1,0 +1,42 @@
+export const INITIAL_INCIDENTS = [
+  {
+    id: "CP-1281",
+    ticketId: "CP-1281",
+    type: "Pothole",
+    category: "Pothole",
+    selectedCategory: "Pothole",
+    finalCategory: "Pothole",
+    location: "MG Road, Sector 4",
+    locationAddress: "MG Road, Sector 4",
+    department: "Road Maintenance Department",
+    recommendedDepartment: "Road Maintenance Department",
+    priorityScore: 80,
+    priorityLevel: "Critical",
+    status: "New",
+    statusCode: "NEW",
+    reportCount: 3,
+    createdAt: new Date().toISOString(),
+    image: null,
+    imageUrl: null
+  },
+  {
+    id: "CP-1282",
+    ticketId: "CP-1282",
+    type: "Garbage",
+    category: "Garbage",
+    selectedCategory: "Garbage",
+    finalCategory: "Garbage",
+    location: "Lakeview Avenue, Sector 7",
+    locationAddress: "Lakeview Avenue, Sector 7",
+    department: "Sanitation Department",
+    recommendedDepartment: "Sanitation Department",
+    priorityScore: 60,
+    priorityLevel: "High",
+    status: "In Progress",
+    statusCode: "IN_PROGRESS",
+    reportCount: 2,
+    createdAt: new Date().toISOString(),
+    image: null,
+    imageUrl: null
+  }
+];
